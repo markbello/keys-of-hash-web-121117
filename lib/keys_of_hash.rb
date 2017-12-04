@@ -4,8 +4,6 @@ class Hash
     key_array = []
     arguments.each{|key, value|
       key_array.push(key)
-      binding.pry
     }
-    key_array
   end
 end
