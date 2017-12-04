@@ -7,6 +7,5 @@ class Hash
       key_array.push(key)
     }
     key_array
-    binding.pry
   end
 end
