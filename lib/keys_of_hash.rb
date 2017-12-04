@@ -1,9 +1,10 @@
 require "pry"
 class Hash
 
-  def keys_of(*arguments)
+  def keys_of(this, *arguments)
     key_array = []
-    Hash[arguments]
-    binding.pry
+    this.each {|key, value|
+      binding.pry
+    }
   end
 end
