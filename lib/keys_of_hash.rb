@@ -2,9 +2,6 @@ require "pry"
 class Hash
 
   def keys_of(*arguments)
-    key_array = []
-    arguments.each {|key, value|
-      binding.pry
-    }
+    map{|key, value| arguments.include?(value) ? key : nil}
   end
 end
