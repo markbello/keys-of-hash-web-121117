@@ -4,5 +4,6 @@ class Hash
     arguments.each{|key, value|
       key_array.push(value)
     }
+    key_array
   end
 end
