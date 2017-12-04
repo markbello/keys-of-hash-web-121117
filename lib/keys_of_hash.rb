@@ -6,6 +6,6 @@ class Hash
     arguments.each{|key, value|
       key_array.push(key)
     }
-      key_array
+    key_array
   end
 end
