@@ -4,6 +4,6 @@ class Hash
     map{|key, value|
       if arguments.include?(value)
         key
-      end}
+      end}.compact
   end
 end
